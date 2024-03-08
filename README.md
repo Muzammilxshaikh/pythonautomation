@@ -1,2 +1,2 @@
 # pythonautomation
-Automation of daily day to day boring activities into automated tasks.
+Automation of daily day to day booooooooooooooooooooooooooring tasks into no tasks.
