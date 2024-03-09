@@ -64,8 +64,5 @@ for i, df in enumerate(Tables):
     print(f"CSV file for the table {i+1} saved to {full_file_path}")
 
 
-# In[ ]:
-
-
 
 
