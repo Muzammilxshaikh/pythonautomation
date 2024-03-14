@@ -1,0 +1,19 @@
+-- Reading input file and store only the pass information into another file
+f=open('D:\\D drive new\\D drive\\Python_projects\\Automation project\\Linkden pj3\\inputFileio.txt','r')
+fail_file = open('D:\\D drive new\\D drive\\Python_projects\\Automation project\\Linkden pj3\\failFile.txt','w')
+for line in f:
+    line_split=line.split()
+    if line_split[2] == 'F':
+        fail_file.write(line)
+        print(fail_file.write(line))
+f.close()
+fail_file.close()
+-- #reading file and pass only
+f = open('D:\\D drive new\\D drive\\Python_projects\\Automation project\\Linkden pj3\\inputFileio.txt', 'r')
+pass_file = open('D:\\D drive new\\D drive\\Python_projects\\Automation project\\Linkden pj3\\PassFile.txt','w')
+for line in f:
+    line_split = line.split()
+    if line_split[2] == 'P':
+        print(pass_file.write(line))
+f.close()
+pass_file.close()
